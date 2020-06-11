@@ -1,6 +1,8 @@
+import os
+
 class Creds():
     # ENTER Your bot Token Here
-    TG_TOKEN = "1154582975:AAEH8br1WkUxCNX7aFkzzuNIieju5G2KXqE"
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
     
     
     
@@ -8,10 +10,10 @@ class Creds():
     # Because of pydrive And pydrive v2 Api
     
     #Folder Id Of Teamdrive
-    TEAMDRIVE_FOLDER_ID = ""
+    TEAMDRIVE_FOLDER_ID = os.environ.get("TEAMDRIVE_FOLDER_ID", "")
     
     # Id of Team drive 
-    TEAMDRIVE_ID = ""
+    TEAMDRIVE_ID = os.environ.get("TEAMDRIVE_ID", "")
     
     
     
