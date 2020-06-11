@@ -23,6 +23,14 @@
     "AUTH_CHANNEL": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
       "value": ""
+    },
+    "Mega_Email": {
+      "description": "# Enter Your Mega email (Required).",
+      "value": ""
+    },
+    "Mega_pass": {
+      "description": "# Enter Your Mega Pass (Required).",
+      "value": ""
     }  
   },
   "addons": [
