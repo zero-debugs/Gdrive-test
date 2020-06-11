@@ -1,0 +1,35 @@
+{
+  "name": "Atom",
+  "description": "Atom .",
+  "keywords": [
+    "telegram",
+    "pyrogram",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/Anonymous5945/Atom",
+  "success_url": "https://github.com/Anonymous5945/Atom",
+  "website": "https://github.com/Anonymous5945/Atom/",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+        "TG_BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
