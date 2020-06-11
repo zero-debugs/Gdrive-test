@@ -3,7 +3,7 @@ import os
 class Creds():
     # ENTER Your bot Token Here
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-    
+    AUTH_CHANNEL = int(os.environ.get("AUTH_CHANNEL", -100))
     
     
     #  Make Sure You Are Providing both value if you need Teamdrive upload
