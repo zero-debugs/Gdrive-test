@@ -4,6 +4,9 @@ class Creds():
     # ENTER Your bot Token Here
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
     AUTH_CHANNEL = int(os.environ.get("AUTH_CHANNEL", -100))
+    # Enter Your Mega email And Pass (Required)
+    Mega_Email = os.environ.get("Mega_Email", "")
+    Mega_pass = os.environ.get("Mega_pass", "")
     
     
     #  Make Sure You Are Providing both value if you need Teamdrive upload
