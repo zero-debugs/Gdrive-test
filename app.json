@@ -8,9 +8,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Anonymous5945/Google-Drive-Uploader",
-  "success_url": "https://github.com/Anonymous5945/Google-Drive-Uploader",
-  "website": "https://github.com/Anonymous5945/Google-Drive-Uploader",
+  "repository": "https://github.com/Anonymous5945/Gdrive-test",
+  "success_url": "https://github.com/Anonymous5945/Gdrive-test",
+  "website": "https://github.com/Anonymous5945/Gdrive-test",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
